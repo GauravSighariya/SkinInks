@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+django_heroku.settings(locals(),staticfiles=False)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
